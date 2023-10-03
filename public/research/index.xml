@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research on Bartosz McCormick</title>
+    <link>http://example.org/research/</link>
+    <description>Recent content in Research on Bartosz McCormick</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EiT Urban Mobility ±15-Minute City Report</title>
+      <link>http://example.org/research/eit-urban-mobility-15-minute-city/</link>
+      <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/research/eit-urban-mobility-15-minute-city/</guid>
+      <description>test!</description>
+    </item>
+    
+    <item>
+      <title>Strain Response Shape Classification for Bridge Weigh-in-Motion Applications</title>
+      <link>http://example.org/research/bridge-weigh-in-motion/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/research/bridge-weigh-in-motion/</guid>
+      <description>This project was my introduction to academic research. During my junior and senior years of undergrad I had the opportunity to be a part of UConn&amp;rsquo;s Smart Infrastructure Lab and work under Dr. Shinae Jang. More important than the outcome of the research was that the project allowed me to go through the entire research process, including literature review, writing a grant proposal, running my own project, and sharing my findings.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coursework on Bartosz McCormick</title>
+    <link>http://example.org/coursework/</link>
+    <description>Recent content in Coursework on Bartosz McCormick</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 10 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/coursework/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java Gridworld Taxi Sim</title>
+      <link>http://example.org/coursework/java-oop-taxi-assignment/</link>
+      <pubDate>Thu, 10 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/coursework/java-oop-taxi-assignment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Redesign of Munich’s Humboldtstraße Corridor for Cyclists</title>
+      <link>http://example.org/coursework/humboldtstrasse-redesign-for-cyclists/</link>
+      <pubDate>Fri, 24 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/coursework/humboldtstrasse-redesign-for-cyclists/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Regional Public Transport for Campus Oberpfaffenhofen</title>
+      <link>http://example.org/coursework/regional-public-transport-seminar-project/</link>
+      <pubDate>Wed, 08 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/coursework/regional-public-transport-seminar-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comparing Student Accessibility in Bremen and Leipzig</title>
+      <link>http://example.org/coursework/student-accessibility-analysis/</link>
+      <pubDate>Fri, 12 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/coursework/student-accessibility-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evaluation of E-scooter Usage in South-West Munich</title>
+      <link>http://example.org/coursework/e-scooter-usage-analysis/</link>
+      <pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/coursework/e-scooter-usage-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Street Redesign: South Green Hartford, CT</title>
+      <link>http://example.org/coursework/street-redesign-south-green-hrtfd-ct/</link>
+      <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/coursework/street-redesign-south-green-hrtfd-ct/</guid>
+      <description>test</description>
+    </item>
+    
+    <item>
+      <title>Senior Design: Design of a Roundabout for Norwich, CT</title>
+      <link>http://example.org/coursework/senior-design/</link>
+      <pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/coursework/senior-design/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

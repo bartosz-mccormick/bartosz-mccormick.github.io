@@ -1,0 +1,4 @@
+
+<span style="display: block; text-align: center;">
+    <span style="font-style: italic;">{{ .Inner }}</span>
+</span>

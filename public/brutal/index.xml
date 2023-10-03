@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Brutal on Bartosz McCormick</title>
+    <link>http://example.org/brutal/</link>
+    <description>Recent content in Brutal on Bartosz McCormick</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 16 Apr 2023 11:23:52 +0200</lastBuildDate><atom:link href="http://example.org/brutal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hügelhaus</title>
+      <link>http://example.org/brutal/huegelhaus/</link>
+      <pubDate>Sun, 16 Apr 2023 11:23:52 +0200</pubDate>
+      
+      <guid>http://example.org/brutal/huegelhaus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kino Relax</title>
+      <link>http://example.org/brutal/kino-relax/</link>
+      <pubDate>Sun, 16 Apr 2023 11:23:40 +0200</pubDate>
+      
+      <guid>http://example.org/brutal/kino-relax/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kino International</title>
+      <link>http://example.org/brutal/kino-international/</link>
+      <pubDate>Sun, 16 Apr 2023 11:22:31 +0200</pubDate>
+      
+      <guid>http://example.org/brutal/kino-international/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Olympiaturm</title>
+      <link>http://example.org/brutal/olympiaturm/</link>
+      <pubDate>Sun, 16 Apr 2023 11:22:31 +0200</pubDate>
+      
+      <guid>http://example.org/brutal/olympiaturm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Orpheus and Eurydike Estate</title>
+      <link>http://example.org/brutal/orpheus-eurydike-estate/</link>
+      <pubDate>Sun, 16 Apr 2023 11:22:31 +0200</pubDate>
+      
+      <guid>http://example.org/brutal/orpheus-eurydike-estate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pallasseum</title>
+      <link>http://example.org/brutal/pallasseum/</link>
+      <pubDate>Sun, 16 Apr 2023 11:22:31 +0200</pubDate>
+      
+      <guid>http://example.org/brutal/pallasseum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plac Grunwaldzki Estate</title>
+      <link>http://example.org/brutal/plac-grunwaldzki-estate/</link>
+      <pubDate>Sun, 16 Apr 2023 11:22:31 +0200</pubDate>
+      
+      <guid>http://example.org/brutal/plac-grunwaldzki-estate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Smolna 8</title>
+      <link>http://example.org/brutal/smolna-8/</link>
+      <pubDate>Sun, 16 Apr 2023 11:22:31 +0200</pubDate>
+      
+      <guid>http://example.org/brutal/smolna-8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Torres Blancas</title>
+      <link>http://example.org/brutal/torres-blancas/</link>
+      <pubDate>Sun, 16 Apr 2023 11:22:31 +0200</pubDate>
+      
+      <guid>http://example.org/brutal/torres-blancas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tres Chimeneas</title>
+      <link>http://example.org/brutal/tres-chimeneas/</link>
+      <pubDate>Sun, 16 Apr 2023 11:22:31 +0200</pubDate>
+      
+      <guid>http://example.org/brutal/tres-chimeneas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zizkov Television Tower</title>
+      <link>http://example.org/brutal/zizkov-television-tower/</link>
+      <pubDate>Sun, 16 Apr 2023 11:22:31 +0200</pubDate>
+      
+      <guid>http://example.org/brutal/zizkov-television-tower/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

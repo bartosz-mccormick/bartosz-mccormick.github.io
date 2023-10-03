@@ -1,0 +1,31 @@
+{{ define "main" }}
+{{ partial "back_link.html" .}}
+
+<h1>{{ .Title }}</h1>
+pictures I've taken of brutalist, modernist, and other tangentially related architecture.
+<br>
+<br>
+
+inspired by DAM's <a href="https://www.sosbrutalism.org/cms/15802395">SOS Brutalism</a>.
+
+<br>
+<br>
+
+{{ .Content }}
+
+<div class="brutal">
+    {{ range .Pages }}
+    <a href="{{ .Permalink }}">{{ .Title | upper }}</a><br>
+    {{.Params.city}}, {{.Params.country}}
+    {{with resources.GetMatch (printf "img/brutal/%s.jpg" .File.BaseFileName)}}
+        {{partial "image.html" (dict "src" . "alt" "main image of .File.BaseFileName")}}
+    {{ end }}
+    <br>
+
+
+{{ end }}
+</div>
+
+
+
+{{ end }}

@@ -1,0 +1,57 @@
+{{ define "main" }}
+
+<header>
+    <h1>{{ $.Site.Title }}</h1>
+    {{- if $.Site.Params.theme_config.show_description -}}
+        <p>{{ $.Site.Params.description }}</p>
+    {{- end -}}
+</header>
+
+<h3>info</h3>
+Hi! My name is Bartosz, I'm a master's student at the Technical University of Munich studying transportation systems.
+I'm interested in urbanism and sustainable transportation. I made this website to 
+share the things I work on, as well as some of my personal interests. You can find my CV here
+
+<h3>what's new</h3>
+
+
+{{ range first 3 (where .Site.Pages.ByDate.Reverse "Section" "posts") }}
+<div class="content-list-container">
+    <div style="width:100px; height:100px; background:blue; flex: none"></div>
+    <div>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        <br>
+        <time>{{ .Date.Format "2006-01-02" }}</time>
+    </div>
+    
+</div>
+{{ end }}
+<a href="posts">see more...</a>
+
+
+<ul>
+    {{ range where .Site.Pages.ByDate.Reverse "Section" "posts" }}
+    <li>
+        <time>{{ .Date.Format "2006-01-02" }}</time>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+</ul>
+
+
+
+
+
+<h3>misc</h3>
+<ul>
+    <li>brutalist architecture</li>
+    <li>my origin story, open TTD</li>
+</ul>
+
+
+
+
+{{ .Content }}
+{{ partial "menu_item.html" (dict "context" . "collection" $.Site.Data.menu.entries) }}
+
+{{ end }}

@@ -1,0 +1,10 @@
+{{ $src := resources.Get .src }}
+{{ $compressedImg := $src.Resize "1200x q90 box" }}
+{{ $maxDim := 500 }}
+
+
+{{ if lt $compressedImg.Width $compressedImg.Height }}
+    <img src="{{ $compressedImg.Permalink }}" alt="{{.alt}}" height="{{$maxDim}}">
+{{ else }}
+    <img src="{{ $compressedImg.Permalink }}" alt="{{.alt}}" width="{{$maxDim}}">
+{{ end }}

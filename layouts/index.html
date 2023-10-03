@@ -1,0 +1,71 @@
+{{ define "main" }}
+
+<!-- fontawesome for social media icons -->
+<link rel="stylesheet" href="fontawesome/fontawesome.css">
+<link rel="stylesheet" href="fontawesome/brands.css">
+
+
+<header>
+    <h1>{{ $.Site.Title }}</h1>
+    {{- if $.Site.Params.theme_config.show_description -}}
+        <p>{{ $.Site.Params.description }}</p>
+    {{- end -}}
+</header>
+
+<h3>info</h3>
+Hi! My name is Bartosz, I'm a master's student at the Technical University of Munich studying transportation systems.
+I'm interested in urbanism and sustainable transportation. I made this website to 
+share the things I work on, as well as some of my personal interests. You can find my CV here
+
+<div class="social-media">
+    <a target="_blank" href="https://www.linkedin.com/in/bartosz-mccormick/"><span class="fa-brands fa-linkedin"></span></a>
+    <a target="_blank" href="https://github.com/bartosz-mccormick"><span class="fa-brands fa-github"></span></a>
+    {{/*  <a href="posts"><span class="fa-brands fa-orcid"></span></a>  */}}
+    <!-- <a href="posts"><span class="fa-brands fa-youtube"></span></a> -->
+</div>
+
+
+<h3>what's new</h3>
+
+{{ range first 20 (where .Site.RegularPages.ByDate.Reverse "Section" "in" (slice "research" "coursework")) }}
+<div class="content-list-container">
+    {{$thumbnailPath := ""}}
+    {{if  eq .File.BaseFileName "regional-public-transport-seminar-project"}}
+        {{$thumbnailPath = (printf "img/thumbnails/%s.gif" .File.BaseFileName)}}
+    {{else}}
+        {{$thumbnailPath = (printf "img/thumbnails/%s.png" .File.BaseFileName)}}
+    {{end}}
+    {{if fileExists (printf "static/%s" $thumbnailPath)}}
+      <img src="{{ $thumbnailPath | relURL }}" alt="thumbnail for post" style = "width: 100px; height: 100px; margin: 0; flex:none">
+    {{ else }}
+        <div style="width:100px; height:100px; background:blue; flex: none"></div>
+    {{ end }}
+    <div>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        <br>
+        {{ .Type}}|<time>{{ .Date.Format "2006-01-02" }}</time>
+    </div>
+    
+</div>
+{{ end }}
+<a href="posts">see more...</a>
+
+
+<!-- <ul>
+    {{ range where .Site.Pages.ByDate.Reverse "Section" "posts" }}
+    <li>
+        <time>{{ .Date.Format "2006-01-02" }}</time>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+</ul> -->
+
+<h3>misc</h3>
+<ul>
+    <li><a href="/brutal"> brutalist architecture</a></li>
+    <li>transportation photos</li>
+    <!-- <li>my origin story, open TTD</li> -->
+</ul>
+
+
+{{ end }}
