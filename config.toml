@@ -37,3 +37,7 @@ pluralizelisttitles = false
     appearance = "auto"
     back_home_text = ".."
     date_format = "2006-01-02"
+
+[taxonomies]
+  category = 'categories'
+  test = 'tests'

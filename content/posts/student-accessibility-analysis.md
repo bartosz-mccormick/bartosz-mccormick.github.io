@@ -2,6 +2,8 @@
 title: "Comparing Student Accessibility in Bremen and Leipzig"
 date: 2022-08-12
 draft: false
+categories:
+- coursework
 ---
 In this project I compared the accessibility of university students in Bremen and Leipzig. It was my first time analyzing public transport as well as my first accessibility analysis!
 

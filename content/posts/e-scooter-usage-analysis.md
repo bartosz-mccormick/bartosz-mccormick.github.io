@@ -2,6 +2,8 @@
 title: "Evaluation of E-scooter Usage in South-West Munich"
 date: 2022-03-09
 draft: false
+categories:
+- coursework
 ---
 
 This was an independent research project in the first semester of my Master's program. It was also my first time doing a GIS analysis!

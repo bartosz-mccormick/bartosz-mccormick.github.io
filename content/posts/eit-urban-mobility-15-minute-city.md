@@ -2,6 +2,8 @@
 title: "EiT Urban Mobility ±15-Minute City Report"
 date: 2022-11-01
 draft: false
+categories:
+- research
 ---
 
 The 15-Minute City has gained lots of attention in recent years, perhaps most notably with Paris adopting the concept as part of

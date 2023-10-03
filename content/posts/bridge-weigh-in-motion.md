@@ -2,6 +2,8 @@
 title: "Strain Response Shape Classification for Bridge Weigh-in-Motion Applications"
 date: 2020-04-30
 draft: false
+categories:
+- research
 ---
 
 This project was my introduction to academic research. During my junior and senior years of undergrad I had the opportunity to be a part of UConn's [Smart Infrastructure Lab](https://smart.engr.uconn.edu/people/) and work under Dr. Shinae Jang. More important than the outcome of the research was that the project allowed me to go through the entire research process, including literature review, writing a grant proposal, running my own project, and sharing my findings. 

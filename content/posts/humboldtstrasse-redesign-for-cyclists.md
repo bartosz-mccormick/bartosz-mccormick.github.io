@@ -2,6 +2,8 @@
 title: "Redesign of Munich's Humboldtstraße Corridor for Cyclists"
 date: 2023-03-24
 draft: false
+categories:
+- coursework
 ---
 
 As part of my cycling infrastructure planning and design class my group and I redesigned a major cycling corridor in Southeast Munich. 

@@ -2,6 +2,8 @@
 title: "Java Gridworld Taxi Sim"
 date: 2023-08-10
 draft: false
+categories:
+- coursework
 ---
 
 This was the final assignment of my introduction to java object orienting programming course. The assignment was to implement

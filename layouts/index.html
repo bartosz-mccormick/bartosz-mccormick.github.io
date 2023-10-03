@@ -27,7 +27,7 @@ share the things I work on, as well as some of my personal interests. You can fi
 
 <h3>what's new</h3>
 
-{{ range first 20 (where .Site.RegularPages.ByDate.Reverse "Section" "in" (slice "research" "coursework")) }}
+{{ range first 20 (where .Site.RegularPages.ByDate.Reverse "Section" "in" (slice "posts")) }}
 <div class="content-list-container">
     {{$thumbnailPath := ""}}
     {{if  eq .File.BaseFileName "regional-public-transport-seminar-project"}}
@@ -43,7 +43,15 @@ share the things I work on, as well as some of my personal interests. You can fi
     <div>
         <a href="{{ .Permalink }}">{{ .Title }}</a>
         <br>
-        {{ .Type}}|<time>{{ .Date.Format "2006-01-02" }}</time>
+        {{- with .Params.categories -}}
+            {{- if ge (len .) 1 -}}
+                {{- range . -}}
+                    <a href="{{ $.Site.BaseURL }}categories/{{ . | urlize }}/">{{ . }}</a>
+                {{ end -}}
+            {{- end -}}
+        {{- end -}}
+        |
+        <time>{{ .Date.Format "2006-01-02" }}</time>
     </div>
     
 </div>

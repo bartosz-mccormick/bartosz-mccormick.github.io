@@ -2,6 +2,8 @@
 title: "Regional Public Transport for Campus Oberpfaffenhofen"
 date: 2023-03-08
 draft: false
+categories:
+- coursework
 ---
 Apart from the thesis, the "project seminar" was the biggest part of my master's program. In this seminar we were asked to 
 develop solutions to various mobility challenges that [Air Tech Campus Oberpfaffenhofen](https://www.airtechcampus.de/), a major regional employment center, is facing.

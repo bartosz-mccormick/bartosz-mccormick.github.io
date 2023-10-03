@@ -3,12 +3,22 @@
 
 <article>
     <p class="post-meta">
+        {{- with .Params.categories -}}
+            {{- if ge (len .) 1 -}}
+                {{- range . -}}
+                    <a href="{{ $.Site.BaseURL }}categories/{{ . | urlize }}/">{{ . }}</a>
+                {{ end -}}
+            {{- end -}}
+        {{- end -}}
+        |
         <time datetime="{{ .Date }}">
             {{ .Date | time.Format site.Params.theme_config.date_format }}
         </time>
     </p>
 
     <h1>{{ .Title }}</h1>
+
+
 
     {{ .Content }}
 </article>
