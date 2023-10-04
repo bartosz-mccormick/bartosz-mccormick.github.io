@@ -15,7 +15,7 @@ inspired by DAM's <a href="https://www.sosbrutalism.org/cms/15802395">SOS Brutal
 
 <div class="brutal">
     {{ range .Pages }}
-    <a href="{{ .Permalink }}">{{ .Title | upper }}</a><br>
+    <a href="{{ .Permalink }}">{{ .Title | upper }}</a>
     {{.Params.city}}, {{.Params.country}}
     {{with resources.GetMatch (printf "img/brutal/%s.jpg" .File.BaseFileName)}}
         {{partial "image.html" (dict "src" . "alt" "main image of .File.BaseFileName")}}
