@@ -15,7 +15,7 @@
 <h3>info</h3>
 Hi! My name is Bartosz, I'm a master's student at the Technical University of Munich studying transportation systems.
 I'm interested in urbanism and sustainable transportation. I made this website to 
-share the things I work on, as well as some of my personal interests. You can find my CV here
+share the things I work on, as well as some of my personal interests. You can find my CV here.
 <div class="social-media">
     <a target="_blank" href="https://www.linkedin.com/in/bartosz-mccormick/"><span class="fa-brands fa-linkedin"></span></a>
     <a target="_blank" href="https://github.com/bartosz-mccormick"><span class="fa-brands fa-github"></span></a>
@@ -26,7 +26,13 @@ share the things I work on, as well as some of my personal interests. You can fi
 
 <h3>what's new</h3>
 
-{{ range first 20 (where .Site.RegularPages.ByDate.Reverse "Section" "in" (slice "posts")) }}
+
+
+{{ partial "post_list.html" (dict "context" . "section" .Site.GetPage "section" "posts" "limit" 5 "show_more" true "show_more_url" "posts" )}}
+
+
+
+{{/*  {{ range first 20 (where .Site.RegularPages.ByDate.Reverse "Section" "in" (slice "posts")) }}
 <div class="content-list-container">
     {{$thumbnailPath := ""}}
     {{if  eq .File.BaseFileName "regional-public-transport-seminar-project"}}
@@ -55,17 +61,9 @@ share the things I work on, as well as some of my personal interests. You can fi
     
 </div>
 {{ end }}
-<a href="posts">see more...</a>
+<a href="posts">see more...</a>  */}}
 
 
-<!-- <ul>
-    {{ range where .Site.Pages.ByDate.Reverse "Section" "posts" }}
-    <li>
-        <time>{{ .Date.Format "2006-01-02" }}</time>
-        <a href="{{ .Permalink }}">{{ .Title }}</a>
-    </li>
-    {{ end }}
-</ul> -->
 
 <h3>misc</h3>
 <ul>

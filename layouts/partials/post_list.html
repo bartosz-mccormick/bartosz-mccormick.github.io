@@ -25,15 +25,38 @@
     {{- if .limit }}
         {{ $posts = (first .limit $posts ) }}
     {{ end }}
-    <ul>
         {{- range $post := $posts -}}
-        <li>
-            <span>{{- ($post.Date | time.Format site.Params.theme_config.date_format) }}</span>
-            <a href="{{ $post.Permalink | relURL }}">{{ $post.Title }}</a>
-        </li>
+
+        <div class="content-list-container">
+            {{$thumbnailPath := ""}}
+            {{if  eq .File.BaseFileName "regional-public-transport-seminar-project"}}
+                {{$thumbnailPath = (printf "img/thumbnails/%s.gif" .File.BaseFileName)}}
+            {{else}}
+                {{$thumbnailPath = (printf "img/thumbnails/%s.png" .File.BaseFileName)}}
+            {{end}}
+            {{if fileExists (printf "static/%s" $thumbnailPath)}}
+            <img src="{{ $thumbnailPath | relURL }}" alt="thumbnail for post" style = "width: 100px; height: 100px; margin: 0; flex:none">
+            {{ else }}
+                <div style="width:100px; height:100px; background:blue; flex: none"></div>
+            {{ end }}
+            <div>
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+                <br>
+                {{- with .Params.categories -}}
+                    {{- if ge (len .) 1 -}}
+                        {{- range . -}}
+                            <a href="{{ $.Site.BaseURL }}/categories/{{ . | urlize }}/">{{ . }}</a>
+                        {{ end -}}
+                    {{- end -}}
+                {{- end -}}
+                |
+                <time>{{ .Date.Format "2006-01-02" }}</time>
+            </div>
+        </div>
+
         {{ end }}
         {{- if and .show_more $limit_exceeded }}
-            <li><a href="{{ .show_more_url | relURL }}">{{ .show_more_text | default "Show more..." }}</a></li>
+            <a href="{{ .show_more_url | relURL }}">{{ .show_more_text | default "see more..." }}</a>
         {{ end }}
-    </ul>
 {{ end }}
+
