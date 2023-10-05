@@ -6,7 +6,7 @@ categories:
 - coursework
 ---
 
-This was the final project for a street design class in which I collaborated with a landscape architecture student to reimagine part of the South Green neighborhood in Hartford, CT. The site features a major bus corridor and at the time there were plans for mixed-use development on the empty plots.[^1] An analysis of the traffic conditions indicated excess capacity for cars and therefore we sought to reclaim street space for pedestrians and cyclists. The final design features dedicated bus lanes, separated bike facilities with a protected intersection, and a street-side plaza. I was responsible for the street design, while my partner focused on the design of the plaza.
+This was the final project for a street design class in which I collaborated with a landscape architecture student to reimagine part of the South Green neighborhood in Hartford, CT. The site features a major bus corridor and at the time there were plans for mixed-use development on the empty plots.[^1] An analysis of the traffic conditions indicated excess capacity for cars and therefore we sought to reclaim street space for pedestrians and cyclists. The final design featured dedicated bus lanes, separated bike facilities with a protected intersection, and a street-side plaza. I was responsible for the street design, while my partner designed the plaza.
 
 ---
 ![satellite image of the site](../resources/hartford-south-green-satellite.png)

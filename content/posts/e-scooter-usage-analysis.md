@@ -15,7 +15,7 @@ E-scooter Sharing Services (ESS) began operating in Munich in 2019. In theory, t
 ![map of the study area](../resources/e-scooter-study-area.png)
 {{<caption>}}study area{{</caption>}}
 
-The big technical limitation of the analysis was that trip data is not publicly available. This is also what made the project interesting as I needed to come up with a workaround. [TIER](https://www.tier.app/en/)'s public API allowed for the position of all *rentable* scooters to be queried. I set up an AWS server which ran a script to collect data each minute over the course of 11 weeks. I then reconstructed trips on the basis of temporal gaps in availability and changes in vehicle position. 
+A big challenge of this analysis was the lack of publicly available trip data. It is also what made the project interesting as I needed to come up with a workaround. [TIER](https://www.tier.app/en/)'s public API allowed for the position of all *rentable* scooters to be queried. I set up an AWS server which ran a script to collect data each minute over the course of 11 weeks. I then reconstructed trips on the basis of temporal gaps in availability and changes in vehicle position. 
 
 ![methodology overview](../resources/e-scooter-method.png)
 {{<caption>}}overview of methodology{{</caption>}}
@@ -25,6 +25,8 @@ The "feeder trip" classification was assigned if a trip end was within 50 meters
 ![map of access trip origins and egress trip destinations](../resources/e-scooter-access-egress-map.png)
 {{<caption>}}hex bin map of access trip origins and egress trip destinations{{</caption>}}
 
-While there is a longer, more nuanced conclusion that can be drawn from this, overall ESS had a marginal role in facilitating trips by public transport despite the study area being conducive to these types of trips (lower urban and transit system densities relative to the city center).
+In short, the study concluded that the role of ESS in facilitating trips by public transport was marginal. 
+<!-- This was despite the study area being conducive to these types of trips (lower urban and transit system densities relative to the city center). -->
+
 
 [^1]: In Munich, ten minutes represents the upper limit of users’ acceptance of walking access time to rail stations 

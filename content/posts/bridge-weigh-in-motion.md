@@ -6,7 +6,7 @@ categories:
 - research
 ---
 
-This project was my introduction to academic research. During my junior and senior years of undergrad I had the opportunity to be a part of UConn's [Smart Infrastructure Lab](https://smart.engr.uconn.edu/people/) and work under Dr. Shinae Jang. More important than the outcome of the research was that the project allowed me to go through the entire research process, including literature review, writing a grant proposal, running my own project, and sharing my findings. 
+This project was my introduction to academic research. During my junior and senior years of undergrad I had the opportunity to be a part of UConn's [Smart Infrastructure Lab](https://smart.engr.uconn.edu/people/) and work under Dr. Shinae Jang. More important than the outcome of the research was that the project allowed me to go through the entire research process: literature review, writing a grant proposal, running my own project, and sharing my findings. 
 
 Below you'll find a description of the project. You can also click [here](../resources/bwim-poster.pdf) to view a poster I made.
 
