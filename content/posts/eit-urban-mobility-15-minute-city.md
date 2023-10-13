@@ -19,7 +19,7 @@ I demonstrated the applicability of the indicator by using it to analyze five Eu
 ![maps of the accessibility to essential services in Amsterdam, Ghent, Madrid, Milan and Munich](../resources/15-minute-city-maps.png)
 {{<caption>}}maps of the accessibility to essential services{{</caption>}}
 
-More information and the full report can be accessed [here](https://www.eiturbanmobility.eu/%C2%B115-minute-city-human-centred-planning-in-action/)! Below is a video providing an overview of the report.
+More information and the full report can be accessed [here](https://www.eiturbanmobility.eu/%C2%B115-minute-city-human-centred-planning-in-action/)! Below is a video summarizing the report.
 
 <div class = "content-media">
 {{< youtube id="2IGz7_HoOuE" title= "±15-Minute City Study" >}}

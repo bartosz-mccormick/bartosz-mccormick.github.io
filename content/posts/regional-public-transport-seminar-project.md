@@ -21,14 +21,14 @@ some of the highlights of the project!
 ### context & methods
 
 Located in Starnberg County, Air Tech Campus Oberfaffehofen is approximately 20km southwest of Munich's city
-center. While access to the campus by car is convenient via the A 96 highway, it is significantly
+center. While access to the campus is convenient by car via the A 96 highway, it is significantly
 more difficult by public transport. Despite the seemingly close proximity to the S8 S-Bahn line, the closest stop is a 20-minute walk from the center of campus.
 The number of employees at the campus is expected to nearly double to over 20,000 by 2035, however this growth is threatened by the deficient quality of the existing public transport connections.
 
 ![study area](../resources/regional-public-transport-study-area.png)
 {{<caption>}}study area (S8 line highlighted){{</caption>}}
 
-The basis for the analyses were travel time models for public transport and car. The car model was based on average road speeds from [tomtom](https://www.tomtom.com/products/traffic-stats/). 
+The basis for the analyses were public transport and car travel time models. The car model was based on average road speeds from [tomtom](https://www.tomtom.com/products/traffic-stats/). 
 The public transport model was based on GTFS data and was built using [r5r](https://github.com/ipeaGIT/r5r). 
 Due to the large size of the campus, public transport travel time varies significantly depending on which part you need to get to.
 In the interest of a holistic analysis, the reported travel time is the average travel time to the various 
@@ -75,4 +75,4 @@ approximately 60% of the full benefit and allow for a rapid improvement of the m
 
 
 [^1]: 60 minutes is the 90th percentile commute time in Germany, accordingly it is used in the analysis as an upper limit to travel time acceptance.  
-[^2]: quality standards derived from the Bavarian local public transport planning guidelines.
+[^2]: Quality standards derived from the Bavarian local public transport planning guidelines.

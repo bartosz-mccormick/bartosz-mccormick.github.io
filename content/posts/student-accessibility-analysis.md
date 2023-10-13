@@ -30,7 +30,7 @@ The AoMA was defined as the public transport commuter catchment area. The follow
 - 10 min. cycling access
 - 10 min. walking egress
 
- To estimate travel times I used [r5r](https://github.com/ipeaGIT/r5r), an interface to the [R5](https://github.com/conveyal/r5) routing engine. For cycling, the network was defined as edges with a level of traffic stress (LTS)[^1] of two or less. In other words, infrastructure considered comfortable by the mainstream, adult population. On edges with an LTS greater than two, travel speed would be reduced to that of walking.
+ To estimate travel times I used [r5r](https://github.com/ipeaGIT/r5r), an interface to the [R5](https://github.com/conveyal/r5) routing engine. For cycling, the network was defined as edges with a level of traffic stress (LTS)[^1] of two or less. In other words, infrastructure considered suitable for the mainstream, adult population. On edges with an LTS greater than two, travel speed would be reduced to that of walking.
 
 ### b) Determining Local Accessibility Within the AoMA
 
@@ -38,14 +38,14 @@ The degree of accessibility was calculated within the AoMA by taking the weighte
 
 ### c) transportion system analyses
 
-To determine the _reason_ for differences in accessibility, the transportation systems of the cities were analyzed independently of land use. For public transport, I determined service frequencies by analyzing GTFS feeds (timetables). For cycling, I calculated a bikeability index which was formulated as the proportion of urbanized area accessible within a 3 km network distance relative to to the urbanized area within a 3 km Euclidean buffer. As the network distance considers LTS criteria, the measure reflects not only the form of the network but also its suitability for the target users.
+To determine the _reason_ for differences in accessibility, the transportation systems of the cities were analyzed independently of land use. For public transport, I determined service frequencies by analyzing GTFS feeds (timetables). For cycling, I calculated a bikeability index which was formulated as the proportion of urbanized area accessible within a 3 km network distance relative to to the urbanized area within a 3 km Euclidean distance. As the network distance considers LTS criteria, the measure reflects not only the form of the network but also its suitability for the target users.
 
 
 ### ...so which city is better?
 
 While an accessibility analysis is still not fully sufficient to answer this question, the results indicate that **Leipzig** is superior. 
 
-Students' accessibility was primarily determined by the size of the AoMA. As this is a public transport commuter catchment area, its extent is dependent on the form (and quality) of the public transport system and the spatial integration of the university within the system. Leipzig University is centrally located while the University of has a more peripheral location. Accordingly, in contrast to the University of Bremen, Leipzig University is directly accessible from more, higher frequency tram services as well as rapid transit (S-Bahn). Furthermore, travel in all directions is possible. Combined, this results in a significantly larger AoMA.
+Students' accessibility was primarily determined by the size of the AoMA. As this is a public transport commuter catchment area, its extent is dependent on the form (and quality) of the public transport system and the spatial integration of the university within the system. Leipzig University is centrally located while the University of Bremen has a more peripheral location. Accordingly, in contrast to the University of Bremen, Leipzig University is directly accessible from more, higher frequency tram services as well as rapid transit (S-Bahn). Furthermore, travel in all directions is possible. Combined, this results in a significantly larger AoMA.
 
 While the extent of the accessible area is constrained by the AoMA, the degree of accessibility within is highly dependent on the ease of biking. Both at the city level and within the AoMA, the city of Bremen is more bikeable than Leipzig. Bremen tends to have a higher degree of bikeability and has a more cohesive spatial distribution. 
 
@@ -59,7 +59,7 @@ The other component of accessibility is the land use (i.e. the distribution of a
 
 For many reasons, the peripheral location of the University of Bremen hinders the accessibility of students in the city. Additionally, it results in an undesirable consequence where students have to decide on a tradeoff between commuting time and local accessibility. In contrast, as one lives closer to Leipzig University, their commuting time decreases while their local accessibility increases.
 
- [^1]: The level of traffic stress (LTS) is a normative approach to evaluating cycling infrastructure. Rather than operational performance, the measure is based on Dutch design standards and aims to estimate the suitability of cycling infrastructure for various profiles of cyclists. R5 includes a [rough implementation](https://docs.conveyal.com/learn-more/traffic-stress) of this based on OpenStreetMap data. Click [here](../humboldtstrasse-redesign-for-cyclists) for another project I did involving LTS!
+ [^1]: The level of traffic stress (LTS) is a normative approach to evaluating cycling infrastructure. Rather than operational performance, the measure is based on Dutch design standards and aims to estimate the suitability of cycling infrastructure for various profiles of cyclists. R5 includes a [rough implementation](https://docs.conveyal.com/learn-more/traffic-stress) of this based on OpenStreetMap data. Click [here](../humboldtstrasse-redesign-for-cyclists) to see another project I did involving LTS!
 
 
 
